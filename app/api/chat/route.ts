@@ -527,6 +527,5 @@ export async function GET(request: Request) {
  
 // ============ CONFIGURATION ============
  
-export const config = {
-  maxDuration: 40, // Vercel serverless max
-};
+export const maxDuration = 40; 
+export const dynamic = 'force-dynamic';
